@@ -1,0 +1,2 @@
+Q5. Write a query to get the employee ID, names (first_name, last_name), salary in ascending order of salary.
+select employee_id, first_name, last_name, salary from employees order by salary asc;
