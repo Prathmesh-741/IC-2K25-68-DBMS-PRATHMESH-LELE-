@@ -1,2 +1,0 @@
-Q1. Write a query to display the names (first_name, last_name) using alias name “First Name”, “Last Name”
-select first_name as `First Name`, last_name as `Last Name` from employees;
