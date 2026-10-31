@@ -1,0 +1,2 @@
+Q16. Write a query to get the length of the employee names (first_name, last_name) from employees table.
+select first_name, last_name, length(first_name) + length(last_name) as `Length of Names` from employees;
