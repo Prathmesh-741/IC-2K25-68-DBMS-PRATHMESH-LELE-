@@ -1,0 +1,2 @@
+Q13. Write a query to calculate 171*214+625.
+select 171 * 214 + 625 as result;
