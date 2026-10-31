@@ -1,0 +1,2 @@
+Q7. Write a query to get the maximum and minimum salary from employees table.
+select max(salary) as maximum_salary, min(salary) as minimum_salary from employees;
