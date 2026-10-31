@@ -1,0 +1,2 @@
+Q6. Write a query to get the total salaries payable to employees.
+select sum(salary) as total_salary from employees;
