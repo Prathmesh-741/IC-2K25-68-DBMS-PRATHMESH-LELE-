@@ -1,0 +1,2 @@
+Q15. Write a query to get first name from employees table after removing white spaces from both side.
+select trim(first_name) as first_name_trimmed from employees;
