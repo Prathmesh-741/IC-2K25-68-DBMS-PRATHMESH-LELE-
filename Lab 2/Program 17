@@ -1,0 +1,2 @@
+Q17. Write a query to check if the first_name fields of the employees table contains numbers.
+select * from employees where first_name regexp '[0-9]';
