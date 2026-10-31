@@ -1,0 +1,2 @@
+Q21. Write a query to get 3 minimum salaries.
+SELECT DISTINCT salaryFROM employeesORDER BY salary ASCLIMIT 3;
