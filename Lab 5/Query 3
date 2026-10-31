@@ -1,0 +1,6 @@
+Q3. Write a query to find the name (first_name, last_name) of the employees who have a manager and worked in a USA based department.
+SELECT first_name, last_name
+FROM employees
+WHERE manager_id IS NOT NULL
+AND department_id IN (
+SELECT department_idFROM departmentsWHERE location_id IN (SELECT location_idFROM locationsWHERE country_id = 'US'));
