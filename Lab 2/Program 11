@@ -1,0 +1,2 @@
+Q11. Write a query get all first name from employees table in upper case.
+select upper(first_name) as first_name_upper from employees;
