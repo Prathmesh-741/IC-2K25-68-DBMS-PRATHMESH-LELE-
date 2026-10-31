@@ -1,0 +1,2 @@
+Q14. Write a query to get the names (for example Ellen Abel, Sundar Ande etc.) of all the employees from employees table.
+select concat(first_name, ' ', last_name) as employee_name from employees;
